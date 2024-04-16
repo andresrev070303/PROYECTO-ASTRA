@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 20px;
+    z-index: 10;
+}
+header .logo{
+    position: relative;
+    color: yellow;
+    font-size: 2em;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+}header ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: yellow;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.zona1{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('STADIUM3.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zona1 .texto1{
+    position: absolute;
+    color: white;
+    font-size: 4em;
+    text-align: center center;
+}
+.zona1 .texto2{
+    position: absolute;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    top: 60%; 
+    transform: translateY(-50%);
+}
+.zona2{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('Escudo\ FCB.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zona2 .texto1{
+    position: absolute;
+    color: white;
+    font-size: 4em;
+    text-align: center center;
+}
+
+.zona3{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('SERVICIOS.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zona3 .texto1{
+    position: absolute;
+    color: white;
+    font-size: 4em;
+    text-align: center center;
+}
+
+.zona4{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('ACCESIBILIDAD2.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zona4 .texto1{
+    position: absolute;
+    color: white;
+    font-size: 4em;
+    text-align: center center;
+}
+/**/
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    max-width: 1200px;
+}
+
+.elemento {
+    width: calc(33.33% - 20px); 
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.imagen {
+    height: 400px; 
+    background-size: cover;
+    background-position: center;
+}
+
+.texto {
+    padding: 20px;
+}
+
+.texto h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.texto p {
+    font-size: 16px;
+   
+}
+/**/
+.about-us {
+    padding: 80px 0; 
+    
+}
+
+.container {
+    max-width: 850px; 
+    margin: 0 auto; 
+    padding: 40px 20px; 
+}
+
+.about-content {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.about-text {
+    flex-basis: 50%; 
+    padding-right: 20px; 
+}
+
+.about-image {
+    flex-basis: 40%; 
+}
+
+.about-image img {
+    max-width: 100%; 
+    height: 260px; 
+}
+
+.about-text h2 {
+    font-size: 32px; 
+    margin-bottom: 20px; 
+}
+
+.about-text p {
+    font-size: 16px; 
+    line-height: 1.6; 
+}
+/**/
+.zonaBaja{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('FOOTERIMAGEN.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 80%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.zonaBaja .textoBajo1{
+    position: absolute;
+    color: white;
+    font-size: 4em;
+    text-align: center center;
+}
+.zonaBaja .textoBajo2{
+    position: absolute;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    top: 60%; 
+    transform: translateY(-50%);
+}
+/**/
+.footer {
+    color: black; 
+    padding: 40px 0; 
+}
+
+.container-footer {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+}
+
+.footer-inner {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.footer-left ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+.footer-left ul li {
+    display: inline-block; 
+    margin-right: 20px; 
+}
+
+.footer-left ul li:last-child {
+    margin-right: 0; 
+}
+
+.footer-left ul li a {
+    color: black; 
+    text-decoration: none; 
+    font-size: 16px; 
+}
+
+.footer-center .logo {
+    position: relative;
+    color: blue;
+    font-size: 2em;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.footer-right p {
+    font-size: 14px; 
+}
+/**/
+.containerForm {
+    display: flex;
+    justify-content: center; 
+    margin: 20px auto; 
+    max-width: 800px; 
+}
+  .contact-form, .contact-info {
+    width: 35%; 
+  }
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+  }
+  .contact-form button {
+    background-color: blue;
+    color: yellow;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  .contact-info {
+    width: 50%; 
+    margin-left: 50px; 
+  }
+  .contact-info div {
+    margin: 10px 0;
+  }
+  .social-icons {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+  }
+  .social-icons li img {
+    max-width: 20px; 
+    max-height: 20px; 
+}
